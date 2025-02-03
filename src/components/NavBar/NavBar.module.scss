@@ -1,0 +1,21 @@
+.navbar{
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+  z-index: 10;
+  top: 5px;
+  width: 99.2%;
+  height: 80px;
+  background-color: cornflowerblue;
+  div{
+    margin: 10px;
+    color: aliceblue;
+  }
+}
+
+.button{
+  height: 50px;
+  background-color: cornflowerblue !important;
+}

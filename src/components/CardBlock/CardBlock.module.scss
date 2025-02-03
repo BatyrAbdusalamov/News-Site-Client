@@ -1,0 +1,9 @@
+.block{
+  display: grid;
+  grid-template-rows: repeat(3, 600px);
+  grid-template-columns: repeat(2, 600px);
+  justify-items: center;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+}
