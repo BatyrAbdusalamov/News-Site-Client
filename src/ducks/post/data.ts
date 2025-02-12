@@ -14,7 +14,6 @@ export const getPostDataRequest = createAsyncThunk(
   'getPostDataRequest',
   async (page, { rejectWithValue }) => {
     try {
-      console.log('zapros')
       return await postman.get(`${TYPE_API.POST}?page=${page}`);
     } catch (e) {
       return rejectWithValue(e);
